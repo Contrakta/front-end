@@ -1,47 +1,44 @@
-.container {
-
-	width: 30vw;
-	height: 100vh;
-	min-width: 37.5rem;
-
-}
-
 .container.bottom-align {
 	
 	display: flex;
 	align-items: flex-end;
 
-
 }
 
 .content {
 
-	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #FFF;
 
 }
 
-.app-info {
+.page-number {
 
-	margin-bottom: 7.2rem;
+	width: 4.5rem;
+	height: 4.5rem;
+	background-color: #FFF;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2.4rem;
 
 }
-.app-info #loading-text {
+
+#current-page-number {
 
 	font-size: 2.6rem;
-	color: white;
 	font-weight: 700;
+	color: var(--primary);
 
 }
 
-.number-description{
-    border-radius: 10rem;
-    color: #000000;
-    padding: 1rem;
-    background-color: #ffffff;
-    font-size: 2.6rem;
-    font-weight: 700;
-    width: 5rem;
-    height: 5rem;
-    text-align: center;
-    margin-bottom: 2.4rem;
+.headline {
+
+	font-weight: 700;
+	font-size: 2.6rem;
+	margin-bottom: 10rem;
+	
 }
+

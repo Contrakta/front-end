@@ -1,69 +1,62 @@
-/*
+// Current page number element
+currentPageNumberElement = document.querySelector("#current-page-number");
 
-O código abaixo é responsável por setar o intervalo de tempo em que os textos pré selecionados irão aparecer na tela
+// Current page headline element
+currentPageHeadlineElement = document.querySelector(".headline"); 
 
-*/
+// Step counter.
+i = 0;
 
-
-let text = document.getElementById("loading-text");
-
-var loading_text = window.setInterval(textinform, 3000);
-
-let texts = [
-    "Conecte suas contas bancárias em um só lugar.",
-    "Compartilhe dados de dispositivos inteligentes.",
-    "Receba produtos financeiros personalizados para você."
+stages = [
+	{
+		pageNumber: 1,
+		headline: "Conecte suas contas bancárias em um só lugar."
+	},
+	{
+		pageNumber: 2,
+		headline: "Compartilhe dados de dispositivos inteligentes."
+	},
+	{
+		pageNumber: 3,
+		headline: "Receba produtos financeiros personalizados para você."
+	}
 ]
 
-let currentText = 0;
 
+// Instancing the sleep function.
+async function sleep(ms) {
 
-function textinform() {
+    return new Promise(resolve => setTimeout(resolve, ms));
 
-    text.textContent = texts[currentText];
-
-    if(currentText > texts.length) {
-        
-        window.location.href="../html/c-dashboard.html"  
-
-    } else {
-
-        currentText++;
-
-    }
 }
 
-textinform();
 
+async function exec() {
 
+	// Setting the first stage.
+	currentPageNumberElement.innerText = stages[i].pageNumber;
+	currentPageHeadlineElement.innerText = stages[i].headline;
+	i++;
 
+	// Sleeping for 2 seconds.
+	await sleep(2000)
 
-let number = document.getElementById("number-loading");
+	// Setting the second stage.
+	currentPageNumberElement.innerText = stages[i].pageNumber;
+	currentPageHeadlineElement.innerText = stages[i].headline;
+	i++;
 
-var loading_number = window.setInterval(numberinfo, 3000);
+	// Sleeping for 2 seconds.
+	await sleep(2000)
 
-let numbers = [
-    "1",
-    "2",
-    "3"
-]
+	// Setting the second stage.
+	currentPageNumberElement.innerText = stages[i].pageNumber;
+	currentPageHeadlineElement.innerText = stages[i].headline;
 
-let currentNumber = 0;
+	// Sleeping for 2 seconds.
+	await sleep(2000)
 
-
-function numberinfo() {
-
-    number.textContents = numbers[currentNumber];
-
-    if(currentNumber > numbers.length) {
-        
-        window.location.href="../html/c-dashboard.html"  
-
-    } else {
-
-        currentNumber++;
-
-    }
 }
 
-numberinfo();
+exec();
+
