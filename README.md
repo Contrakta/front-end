@@ -1,7 +1,8 @@
 # Contrakta
 
+![Logo da Equipe](https://github.com/Contrakta/front-end/blob/main/imagens/Logotipo.png?raw=true)
 
-# Contrakta - Finance insights
+# Finance insights
 ### Desburocratizamos o comércio de produtos monetários oferecendo uma experiência personalizada e única  para nossos clientes. Utilizamos a rede financeira aberta, contratos inteligentes e a hiperconectividade de dispositivos IoT.
 
 ## 📝 Solução 
