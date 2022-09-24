@@ -5,6 +5,7 @@
 
     font-size: 62.5%;
 	--primary: #181818;
+	--white-bg: #F9F9F9;
 
 }
 
@@ -24,16 +25,37 @@ body {
     position: relative;
     overflow-x:hidden;
     overflow-y:hidden;
+	display: flex;
+	justify-content: center;
 
 }
 
 body.black {
 
 	background-color: var(--primary);
-	display: flex;
-	justify-content: center;
 
 }
+
+body.white {
+
+	background-color: var(--white-bg);
+
+}
+
+.container {
+
+	width: 30vw;
+	height: 100vh;
+	min-width: 37.5rem;
+
+}
+
+.content {
+
+	width: 100%;
+
+}
+
 
 .btn {
 
@@ -57,5 +79,63 @@ body.black {
 	font-size: 2rem;
 	font-weight: 600;
 	color: var(--primary);
+
+}
+
+.back-btn {
+
+	display: flex;
+	width: 6.4rem;
+	cursor: pointer;
+	margin-top: 5.8rem;
+	margin-bottom: 3rem;
+	align-items: center;
+
+}
+
+.back-btn .left-arrow {
+
+	margin-right: 0.5rem;
+}
+
+.back-btn .action {
+
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.page-header {
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.page-header {
+
+	margin-bottom: 2rem;
+
+}
+
+.page-title {
+
+	font-size: 2.6rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+
+}
+
+.page-description {
+
+	font-size: 1.4rem;
+	font-weight: 300;
+
+}
+
+.self-title {
+
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
 
 }

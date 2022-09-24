@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Página inicial</title>
+	<link rel="stylesheet" href="../css/0-global.css">
+	<link rel="stylesheet" href="../css/j-buy-confirm.css">
+</head>
+<!-- Corpo do documento -->
+<body class="white">
+
+	<!-- Container principal -->
+	<div class="container">
+
+		<!-- Conteúdo -->
+		<div class="content">
+
+			<!-- Top align -->
+			<div class="top-align">
+
+				<!-- Botão de voltar -->
+				<div class="back-btn" onclick="history.back()">
+					<img class="left-arrow" src="../images/black__left_arrow.svg" alt="ícone de uma seta preta voltada para a esquerda simbolizando o ato de voltar">
+					<span class="action">voltar</span>
+				</div>
+
+				<!-- Cabeçalho da página -->
+				<div class="page-header">
+					<span class="page-title">Saúde • Confirmação</span>
+					<span class="page-description">ContraktaCare+</span>
+				</div>
+
+				<!-- Cartão de seguro -->
+				<div class="assurance-card">
+					<div class="left">
+						<span class="type">Individual</span>
+						<span class="coverage">Cobertura internacional</span>
+					</div>
+					<div class="right">
+						<span class="price">R$ 49,43</span>
+						<span class="time">por 12 meses</span>
+					</div>
+				</div>
+
+				<!-- Box de informações -->
+				<div class="info">
+					<span class="title">Vigência</span>
+					<span class="description">22 de Junho de 2022 à 21 de Junho de 2023.</span>
+				</div>
+
+				<!-- Pagamento  -->
+				<div class="payment">
+
+					<p class="self-title">Pagamento</p>
+
+					<!-- Conta bancária com informações de pagamento -->
+					<div class="bank-payment-method">
+
+						<div class="left">
+							<span class="bank-name">208 - BTG Pactual S.A.</span>
+							<span class="percentage">80% do pagamento</span>
+						</div>
+						<div class="right">
+							<span class="price">R$ 39,56</span>
+							<span class="time">por 12 meses</span>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Bottom align -->
+			<div class="bottom-align">
+
+				<!-- Termo de aceite -->
+				<div class="acception-term">
+					<img class="chkbox" src="../images/black__checkbox.svg" alt="checkbox">
+					<span class="message">Eu declaro que li e concordo com os termos desse <span id="contract">contrato</span>.</span>
+				</div>
+
+				<!-- Botão de contratar -->
+				<div class="btn white" id="contract-now-btn">
+					<span class="plain-text">Contratar agora</span>
+					<img class="btn-image" src="../images/b_next-arrow.svg" alt="seta preta para a direita">
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Importando o script da página -->
+	<script src="../js/j-buy-confirm.js"></script>
+</body>
+</html>
