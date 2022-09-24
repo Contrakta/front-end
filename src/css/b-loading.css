@@ -1,0 +1,44 @@
+.container.bottom-align {
+	
+	display: flex;
+	align-items: flex-end;
+
+}
+
+.content {
+
+	display: flex;
+	flex-direction: column;
+	color: #FFF;
+
+}
+
+.page-number {
+
+	width: 4.5rem;
+	height: 4.5rem;
+	background-color: #FFF;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2.4rem;
+
+}
+
+#current-page-number {
+
+	font-size: 2.6rem;
+	font-weight: 700;
+	color: var(--primary);
+
+}
+
+.headline {
+
+	font-weight: 700;
+	font-size: 2.6rem;
+	margin-bottom: 10rem;
+	
+}
+
