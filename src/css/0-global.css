@@ -55,7 +55,7 @@ body.black {
 .btn .plain-text {
 
 	font-size: 2rem;
-	color: var(--primary);
 	font-weight: 600;
+	color: var(--primary);
 
 }
