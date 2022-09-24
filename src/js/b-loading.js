@@ -56,6 +56,9 @@ async function exec() {
 	// Sleeping for 2 seconds.
 	await sleep(2000)
 
+	// Redirecting...
+	window.location.href = "http://localhost:5500/html/c-dashboard.html"
+
 }
 
 exec();
