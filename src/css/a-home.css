@@ -1,22 +1,8 @@
-.container {
-
-	width: 30vw;
-	height: 100vh;
-	min-width: 37.5rem;
-
-}
-
 .container.bottom-align {
 	
 	display: flex;
 	align-items: flex-end;
 
-
-}
-
-.content {
-
-	width: 100%;
 
 }
 
