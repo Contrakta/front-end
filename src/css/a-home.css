@@ -1,0 +1,41 @@
+.container {
+
+	width: 30vw;
+	height: 100vh;
+	min-width: 37.5rem;
+
+}
+
+.container.bottom-align {
+	
+	display: flex;
+	align-items: flex-end;
+
+
+}
+
+.content {
+
+	width: 100%;
+
+}
+
+.app-info {
+
+	margin-bottom: 7.2rem;
+
+}
+
+.app-info .app-logo {
+
+	margin-bottom: 1.5rem;
+
+}
+
+.app-info .app-description {
+
+	font-size: 2.6rem;
+	color: white;
+	font-weight: 700;
+
+}
