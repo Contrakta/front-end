@@ -24,6 +24,10 @@ Plataforma de economia aberta, baseada no sistema open finance, de contratos int
  
  ## Proposta de valor
  
+ Nossa proposta de valor é em relação à criação de produtos personalizados e adaptados sob medida às necessidades de cada cliente. Bem como a desburocratização na tomada e gestão de serviços financeiros através da democratização de contratos inteligentes, hiperconectividade e IoT para melhor custo benefício e desempenho desses serviços.
+
+Isso será feito através do uso de contratos inteligentes, agregados à hiperconectividade de dipositivos IoT, e a rede financeira aberta, desburocratizamos a gestão de serviços financeiros, propondo um melhor custo benefício e desempenho desses serviços.
+ 
 <b>Tarefas do cliente</b>
  
 <b>Dores do cliente</b>
