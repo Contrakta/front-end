@@ -58,6 +58,7 @@ body {
 
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 .viewer .description {
@@ -203,7 +204,7 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	margin-bottom: 4rem;
-	
+
 }
 
 .menu-item {
