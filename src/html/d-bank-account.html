@@ -35,27 +35,41 @@
                     <span class="page-description">Veja suas conexões ativas</span>
                 </div>
 
-                <!-- Cartão de seguro -->
-                <div class="conections">
-                    <div class="left">
-                        <span class="bank-name">208 - BTG Pactual S.A.</span>
-                        <span class="percentage">80% do pagamento</span>
-                    </div>
-                </div>
-                <div class="conections">
-                    <div class="left">
-                        <span class="bank-name">623 - Pan S.A.</span>
-                        <span class="percentage">20% do pagamento</span>
-                    </div>
-                </div>
+                
+				<!-- Contas bancárias -->
+				<div class="bank-accounts">
+
+					<!-- Conta bancária com informações de pagamento -->
+					<div class="bank-payment-method already-selected" value="1">
+						
+						<div class="bank-info">
+							<p class="bank-name">208 - BTG Pactual S.A.</p>
+							<span class="info"><span class="agency">0020</span><span class="number">278320-4</span></span>
+						</div>
+						
+					</div>
+
+					<!-- Conta bancária com informações de pagamento -->
+					<div class="bank-payment-method" value="2">
+
+						<div class="bank-info">
+							<p class="bank-name">623 - Pan S.A.</p>
+							<span class="info"><span class="agency">0001</span><span class="number">827142-3</span></span>
+						</div>
+						
+					</div>
+
+
+				</div>
+
             </div>
-            <!-- Bottom align -->
-            <div class="bottomBox">
-                <span class="textBot">Criar nova conexão</span>
-                <div id="contract-now-btn">
-                    <img class="btn-image" src="../images/b_next-arrow.svg" alt="seta preta para a direita">
-                </div>
-            </div>
+
+			<!-- Botão de criar nova conexão -->
+			<div class="btn white" id="start-new-bank-connection">
+				<span class="plain-text">Criar nova conexão</span>
+				<img class="btn-image" src="../images/b_next-arrow.svg" alt="seta preta para a direita">
+			</div>
+
         </div>
 
 

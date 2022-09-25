@@ -72,6 +72,7 @@
 }
 
 .bottomBox {
+
     width: 100%;
     height: 5.4rem;
     border-radius: 1.5rem;
@@ -82,5 +83,36 @@
     padding: 1.5rem 2rem;
     margin-bottom: 2.0rem;
     background-color: #FFFFFF;
+
+}
+
+
+.bank-payment-method {
+
+	width: 100%;
+	height: 7.4rem;
+	border-radius: 1rem;
+	border: 0.1rem solid #CCCCCC;
+	padding: 1.5rem 2rem;
+	margin-bottom: 2.0rem;
+	background-color: #FFF;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+
+}
+
+.bank-payment-method .bank-name {
+
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.bank-payment-method .info {
+
+	display: flex;
+	flex-direction: row;
+	font-weight: 400;
+	font-size: 1.2rem;
 
 }
