@@ -1,0 +1,173 @@
+.content {
+
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.container.bottom-align {
+	
+	display: flex;
+	align-items: flex-end;
+
+
+}
+
+.assurance-card {
+
+	width: 100%;
+	height: 7.4rem;
+	border-radius: 1rem;
+	border: 0.1rem solid #CCCCCC;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 2rem;
+	margin-bottom: 2.0rem;
+	background-color: #FFF;
+
+}
+
+.assurance-card .left {
+
+	font-size: 1.2rem;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.assurance-card .right {
+
+	display: flex;
+	flex-direction: column;
+	text-align: end;
+
+}
+
+.assurance-card .right .price {
+
+	font-size: 1.5rem;
+	font-weight: 600;
+
+}
+
+.assurance-card .right .time {
+
+	font-size: 1.2rem;
+	font-weight: 300;
+
+}
+
+.info {
+
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+
+}
+
+.info .title {
+
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+
+}
+
+.info .description {
+
+	font-size: 1.2rem;
+	font-weight: 400;
+
+}
+
+.bank-payment-method {
+
+	width: 100%;
+	height: 7.4rem;
+	border-radius: 1rem;
+	border: 0.1rem solid #CCCCCC;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 2rem;
+	margin-bottom: 2.0rem;
+	background-color: #FFF;
+
+}
+
+.bank-payment-method .left {
+
+	font-size: 1.2rem;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.bank-payment-method .left .bank-name {
+
+	font-size: 1.2rem;
+	font-weight: 700;
+
+}
+
+.bank-payment-method .left .percentage {
+
+	font-size: 1.2rem;
+	font-weight: 400;
+
+}
+
+.bank-payment-method .right {
+
+	display: flex;
+	flex-direction: column;
+	text-align: end;
+
+}
+
+.bank-payment-method .right .price {
+
+	font-size: 1.5rem;
+	font-weight: 600;
+
+}
+
+.bank-payment-method .right .time {
+
+	font-size: 1.2rem;
+	font-weight: 300;
+
+}
+
+.acception-term {
+
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+
+}
+
+.acception-term .chkbox {
+
+	margin-right: 1rem;
+
+}
+
+.acception-term .message {
+
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+
+.acception-term .message #contract {
+
+	text-decoration: underline;
+	font-weight: 500;
+	cursor: pointer;
+
+}
