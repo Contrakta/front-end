@@ -9,17 +9,69 @@ Desburocratizamos o comércio de produtos monetários oferecendo uma experiênci
 Plataforma de economia aberta, baseada no sistema open finance, de contratos inteligentes, seguros e empréstimos P2P, viabilizada pelo consumo de dados de dispositivos IoT hiperconectados.
 
 ## 📁 Estrutura de pastas
+
+<b>Repositótio Back-end<b/>
   
- |--> documentos<br>
-  &emsp;| --> outros <br>
-  &emsp;| Documento_Aplicação_Web(Contrakta).docx<br>
-  &emsp;| Documento_Aplicação_Web(Contrakta).pdf<br>
+ |--> @types<br>
+  &emsp;| --> express <br>
+|--> src<br>
+  &emsp;|--> api<br>
+  &emsp;&emsp;|--> constants<br>
+  &emsp;&emsp;|--> UseCases<br>
+  &emsp;&emsp;&emsp;|--> BankAccount<br>
+  &emsp;&emsp;&emsp;|--> Product<br>
+  &emsp;&emsp;&emsp;|--> User<br>
+  &emsp;|--> config<br>
+  &emsp;|--> database<br>
+  &emsp;&emsp;|--> entities<br>
+  &emsp;|--> helpers<br>
+  &emsp;|--> middlewares<br>
+  &emsp;|--> routes<br>
+  &emsp;|--> services<br>
+  &emsp;&emsp;|--> mail<br>
+  &emsp;|--> app.ts<br>
+  &emsp;|--> server.ts<br>
+|--> .env.sample<br>
+|--> .eslintrc.json<br>
+|--> .gitignore<br>
+|--> docker-compose.yml<br>
+|--> package-lock.json<br>
+|--> package.json<br>
+|--> tsconfig.json<br>
+
+Segue abaixo a descrição dos itens presentes no repositório back-end:
+
+- @types/express: Express é um framework, nessa pasta está sendo feito o import do mesmo.
+- Src: “Source” é a pasta onde se encontram todos os arquivos que envolvem codificação do projeto.
+  - API: Definições das constantes de erro e sucesso, além da agregação dos dados “controller” e “service” nos dados de “BankAccount” e User.
+  - config: organização das variáveis do banco de dados, no caso o que está sendo usado é o PostgreSQL, além de associação dos tipos de cada um.
+  - database: definição das entidades do projeto, e de alguns sources, além da importação de algumas bibliotecas
+  - helpers: função que ajuda a evitar repetição de código
+  - middlewares: instanciamento da checagem dos parâmetros pela ferramenta middleware, dentro da biblioteca express; Definição de variáveis de dados do usuário para lógica condicional, na qual, se o cliente não declarar um “ID” subirá um status de erro.
+  - Routes: rotas de mensagem definidas para conta de banco e para o usuário
+- “.env.sample”: Neste arquivo possuímos variáveis contendo informações do aplicativo, informações do banco de dados, junto com as credenciais de acesso.
+- “.eslintrc.json”: Aqui há a determinação de algumas específicas variáveis do projeto, além de esquemas em que certas palavras chaves são anexadas. Há também a segmentação do Typescript.
+- .gitignore: pasta que segmenta e específica arquivos não rastreadas
+- Docker-compose.yml: documentação do framework “Docker”, definindo serviços, a composição de rede e o volume adotado na aplicação.
+- package-lock.json: gerado automaticamente para operações em que o “npm” faz a modificação no package.json ou na árvore node.
+- package.json: armazena as metadatas do projeto, considerando as requisições necessárias para publicação npm
+- tsconfig.json: delimita os arquivos que serão raiz, e segmenta outras opções de compilação do projeto.
+
+<b>Repositótio Front-end<b/>
+  
 |--> imagens<br>
 |--> src<br>
-  &emsp;|--> Backend<br>
-  &emsp;|--> Frontend<br>
-  &emsp;&emsp;|--> assets<br>
-| readme.md<br>
+  &emsp;|--> css<br>
+  &emsp;|--> html<br>
+  &emsp;|--> imagens<br>
+  &emsp;|--> js<br>
+  
+- imagens: pasta que agrupa as imagens e identidade visual, utilizada para divulgação da empresa.
+- src: “Source” é a pasta onde se encontram todos os arquivos que envolvem codificação, e as imagens do projeto.
+  - CSS: pasta que contém um arquivo de estilização e formatação global, e outros arquivos de estilização das outras páginas, respectivamente da letra A até a letra M (13 páginas)
+  - HTML: pasta que contém arquivos que fazem a definição e criação das Web Pages, por meio da linguagem HTML 5, além de comandos e símbolos específicos para o protótipo.
+  - Images: pasta que agrupa as imagens e identidade visual, utilizada nas páginas do projeto.
+  - JS: pasta que contém arquivos que complementam a visualização de nosso protótipo, com interações, transições e outras features para apresentação.
  
  ## 📈 Proposta de valor
  
