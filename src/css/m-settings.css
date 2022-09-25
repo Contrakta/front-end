@@ -1,0 +1,250 @@
+body {
+
+	flex-direction: column;
+	height: auto;
+
+}
+
+.top-box {
+
+	width: 100%;
+	height: 50vh;
+	background-color: #F9F9F9;
+    position: relative;
+    overflow-x:hidden;
+    overflow-y:hidden;
+	display: flex;
+	justify-content: center;
+
+}
+
+.app-logo {
+
+	margin-top: 5rem;
+	margin-bottom: 2.5rem;
+
+}
+
+.user {
+
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2.5rem;
+
+}
+
+.user .name {
+
+	font-size: 2rem;
+	font-weight: 400;
+	color: #FFF;
+}
+
+.balance {
+
+	margin-bottom: 4rem;
+
+}
+
+.balance .title {
+
+	color: #FFF;
+	font-size: 1.4rem;
+	font-weight: 200;
+	margin-bottom: 1rem;
+}
+
+.viewer {
+
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.viewer .description {
+
+	margin-right: 2.8rem;
+	color: #FFF;
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+.sup-nav {
+
+	display: flex;
+	margin-bottom: 2.8rem;
+
+}
+
+.sup-btn {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	margin-right: 3rem;
+
+}
+
+.sup-btn .icon {
+
+	margin-bottom: 1rem;
+	width: 2.4rem;
+	
+}
+
+.sup-btn .name {
+
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #FFF;
+
+}
+
+.bottom-box {
+
+	width: 100%;
+	height: 50vh;
+	background-color: #F9F9F9;
+    position: relative;
+    overflow-x:hidden;
+    overflow-y:hidden;
+	display: flex;
+	justify-content: center;
+
+}
+
+.bottom-box .container {
+
+	height: 50vh;
+
+}
+
+.bottom-box .container .content {
+
+	justify-content: flex-end !important;
+
+}
+
+.section-title {
+
+	margin-top: 4.3rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+}
+
+.contract-card {
+
+	width: 100%;
+	height: 7.4rem;
+	border-radius: 1rem;
+	border: 0.1rem solid #CCCCCC;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 2rem;
+	margin-bottom: 2.0rem;
+	background-color: #F9F9F9;
+
+}
+
+.contract-card .left {
+
+	font-size: 1.2rem;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.contract-card .left .time {
+
+	font-size: 1.2rem;
+	font-weight: 300;
+
+}
+
+.contract-card .left .title .area {
+
+	font-weight: 500;
+	font-size: 1.2rem;
+	color: var(--primary)
+
+}
+
+.contract-card .left .title .service-name {
+
+	font-size: 1rem;
+	font-weight: 300;
+
+}
+
+.contract-card .right {
+
+	display: flex;
+	flex-direction: column;
+	text-align: end;
+
+}
+
+.contract-card .right .price {
+
+	font-size: 1rem;
+	font-weight: 400;
+
+}
+
+.contract-card .right .time {
+
+	font-size: 1rem;
+	font-weight: 300;
+
+}
+
+.bottom-box .container .content {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 50vh;
+
+}
+
+.bottom-menu {
+
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 4rem;
+
+}
+
+.menu-item {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+
+}
+
+.menu-item .icon {
+
+	width: 2.4rem;
+	margin-bottom: 0.7rem;
+
+}
+
+.menu-item .title {
+
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #E1E1E1;
+
+}
+
+.menu-item .title.active {
+
+	color: var(--primary);
+
+}
