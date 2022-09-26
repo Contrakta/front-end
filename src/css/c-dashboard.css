@@ -122,6 +122,13 @@ body {
 	margin-bottom: 1.5rem;
 }
 
+.contracts {
+
+	max-height: 24vh;
+    overflow-y: auto;
+	
+}
+
 .contract-card {
 
 	width: 100%;
@@ -134,6 +141,7 @@ body {
 	padding: 1.5rem 2rem;
 	margin-bottom: 2.0rem;
 	background-color: #F9F9F9;
+	cursor: pointer;
 
 }
 

@@ -8,6 +8,8 @@
     <title>Página inicial</title>
     <link rel="stylesheet" href="../css/0-global.css">
     <link rel="stylesheet" href="../css/d-bank-account.css">
+	<!-- Integração -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <!-- Corpo do documento -->
 
@@ -37,27 +39,7 @@
 
                 
 				<!-- Contas bancárias -->
-				<div class="bank-accounts">
-
-					<!-- Conta bancária com informações de pagamento -->
-					<div class="bank-payment-method already-selected" value="1">
-						
-						<div class="bank-info">
-							<p class="bank-name">208 - BTG Pactual S.A.</p>
-							<span class="info"><span class="agency">0020</span><span class="number">278320-4</span></span>
-						</div>
-						
-					</div>
-
-					<!-- Conta bancária com informações de pagamento -->
-					<div class="bank-payment-method" value="2">
-
-						<div class="bank-info">
-							<p class="bank-name">623 - Pan S.A.</p>
-							<span class="info"><span class="agency">0001</span><span class="number">827142-3</span></span>
-						</div>
-						
-					</div>
+				<div class="bank-accounts" id="bank-accounts">
 
 
 				</div>
@@ -80,7 +62,7 @@
     </div>
 
     <!-- Importando o script da página -->
-    <script src="../js/j-buy-confirm.js"></script>
+    <script src="../js/d-bank-account.js"></script>
 </body>
 
 </html>
