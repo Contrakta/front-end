@@ -8,6 +8,8 @@
     <title>Ajustes</title>
     <link rel="stylesheet" href="../css/0-global.css">
     <link rel="stylesheet" href="../css/g-shop.css">
+	<!-- Integração -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <!-- Corpo do documento -->
 
@@ -35,66 +37,29 @@
                 <p class="textoMid">Ah, e não esquece: já tudo personalizado
                     para você.</p>
 
-                <!-- Cartões de seguro -->
-				<div class="conections">
-                    <div class="left">
-                        <div class="sameLine">
-                            <span class="assurance-category">Saúde</span>
-                            <span class="modelo">Individual</span>
-                        </div>
-                        <span class="percentage">Seguro saúde individual
-                            com cobertura internacional</span>
-                    </div>
-                    <div class="right">
-                        <p class="price">R$150,43 mês</p>
-                    </div>
-                </div>
+				<div class="products" id="available-products">
 
-                <div class="conections">
-                    <div class="left">
-                        <div class="sameLine">
-                            <span class="assurance-category">Viagem</span>
-                            <span class="modelo">Individual</span>
-                        </div>
-                        <span class="percentage">Seguro viagem individual
-							com cobertura internacional</span>
-                    </div>
-                    <div class="right">
-                        <p class="price">R$267,50 mês</p>
-                    </div>
-                </div>
 
-				<div class="conections">
-                    <div class="left">
-                        <div class="sameLine">
-                            <span class="assurance-category">Automóvel</span>
-                            <span class="modelo"></span>
-                        </div>
-                        <span class="percentage">Seguro automóvel cobertura contra batida e roubo </span>
-                    </div>
-                    <div class="right">
-                        <p class="price">R$432,30 mês</p>
-                    </div>
-                </div>
+				</div>
                 
             </div>
             <!-- Bottom align -->
             <div class="bottom-menu">
 
                 <!-- Produtos -->
-                <div class="menu-item">
+                <div class="menu-item" id="products">
                     <img class="icon" src="../images/black__shop.svg" alt="ícone de carrinho de compras">
                     <span class="title active">Produtos</span>
                 </div>
 
                 <!-- Painel -->
-                <div class="menu-item">
+                <div class="menu-item" id="dashboard">
                     <img class="icon" src="../images/grey__dashboard.svg" alt="ícone de painel de controle">
                     <span class="title">Produtos</span>
                 </div>
 
                 <!-- Ajustes -->
-                <div class="menu-item">
+                <div class="menu-item" id="settings">
                     <img class="icon" src="../images/grey__settings.svg" alt="ícone de engrenagem simobolizando">
                     <span class="title">Ajustes</span>
                 </div>
@@ -109,6 +74,8 @@
 
     </div>
 
+	<script src="../js/g-shop.js"></script>
+	
 </body>
 
 </html>
